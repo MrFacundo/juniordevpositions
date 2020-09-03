@@ -1,0 +1,47 @@
+body {
+  margin: 40px 40px;
+  background-color: #383e3f;
+}
+
+.job {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: cadetblue;
+}
+
+.job:hover {
+  cursor: pointer;
+  color: #666666;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
+
+.job-company {
+  padding: 0 30px;
+}
+
+.job-dialog {
+  padding: 30px 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jobs {
+  width: -webkit-fill-available;
+}
+
+.header {
+  color: white;
+}
