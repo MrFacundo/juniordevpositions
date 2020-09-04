@@ -2,7 +2,13 @@
 
 in development
 
-/worker/tasks/fetch-github.js fetchs data from the Github Jobs API. It also filters the data and stores it using Redis
+
+
+```
+/worker/tasks/fetch-github.js
+```
+
+fetchs data from the Github Jobs API. It also filters the data and stores it using Redis
 
 ```
 /worker/index.js
